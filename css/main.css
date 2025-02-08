@@ -33,16 +33,23 @@ background-image:url(../img/header_img.png);
 min-height: 300px;
 }
 .about_me {
-
+text-align: center;
+background-color: #e3f9de;
+margin-left: 100px;
+margin-right: 100px;
 }
 /*experience section*/
 
 .expierence_container {
 background-image:url(../img/my_experience_background.png);
 min-height: 360px;
+font-size: 30px;
 }
 .experience_list {
 
+}
+ul {
+    font-size: 30px;
 }
 /*Artwork section*/
 .my_artwork {
@@ -69,6 +76,10 @@ background-color: #fbfbeb;
 /*Footer section*/
 footer {
 background-color:#b5eecb ;
+border-bottom: 0.5px solid#b5eecb;
+}
+h4 {
+    margin-bottom: 10px;
 }
 .info {
 
